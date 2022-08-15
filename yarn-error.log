@@ -1,0 +1,37 @@
+Arguments: 
+  /Users/admin/.volta/tools/image/node/16.13.2/bin/node /Users/admin/.yarn/bin/yarn.js add -D typescript
+
+PATH: 
+  /Users/admin/.volta/tools/image/yarn/1.22.17/bin:/Users/admin/.volta/tools/image/node/16.13.2/bin:/Users/admin/.yarn/bin:/Users/admin/.config/yarn/global/node_modules/.bin:/Users/admin/.volta/bin:/Users/admin/.volta/bin:/usr/local/opt/icu4c/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/icu4c/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.13.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOSPC: no space left on device, copyfile '/Users/admin/Library/Caches/Yarn/v6/npm-typescript-4.7.4-1a88596d1cf47d59507a1bcdfb5b9dfe4d488235-integrity/node_modules/typescript/lib/typescriptServices.js' -> '/Users/admin/serious_learning_folder/todo-app/node_modules/typescript/lib/typescriptServices.js'
+
+npm manifest: 
+  {
+    "name": "todo-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
